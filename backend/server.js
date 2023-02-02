@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: false }));
 
 const cors = require('cors');
 app.use(cors({
-    origin: 'https://roaring-zuccutto-ded008.netlify.app/'
+    origin: 'https://roaring-zuccutto-ded008.netlify.app/register'
 }));
 
 app.use('/api/todos', require('./routes/todoRoutes'));
